@@ -1,0 +1,52 @@
+# Ignore node_modules for React frontend
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# Ignore log/logs
+*.log
+
+# Python virtual environment
+*/pyenv/
+*/.env/
+*/venv/
+*/ENV/
+
+# Python cache files
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment configuration
+*.cfg
+*/pyenv.cfg
+
+# Distribution / packaging
+*/bin/
+*/build/
+*/develop-eggs/
+*/dist/
+*/eggs/
+*/lib/
+*/lib64/
+*/parts/
+*/sdist/
+*/var/
+*/*.egg-info/
+*/.installed.cfg
+*/*.egg
+
+# Secrets and sensitive data
+*/client_secret*
+*/scientific-elf*
+*/*secret*
+*/.env
+backend/share/client_secret*.env
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+/backend/coverage/
+
