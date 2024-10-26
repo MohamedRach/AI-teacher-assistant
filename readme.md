@@ -1,6 +1,3 @@
-### AI Teaching Assistant README
-
-```markdown
 # AI Teaching Assistant
 
 The **AI Teaching Assistant** is a tool designed to assist educators in managing and enhancing their course materials. It offers intelligent suggestions for quiz questions, session starters, and other teaching aids based on the instructor's prompts. By leveraging language models, the assistant tailors its suggestions to match the subject and style of the provided material.
@@ -42,4 +39,3 @@ The image above provides a visual overview of the indexing process, from parsing
 ![quizz questions](images/quizz.png)
 
 ![lesson starters](images/lesson_starter.png)
-```
