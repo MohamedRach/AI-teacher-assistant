@@ -18,10 +18,8 @@ class AIService:
     def __init__(self, project_id: str, region: str):
         os.environ["LANGCHAIN_TRACING_V2"] = "true"
         os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-        os.environ["LANGCHAIN_API_KEY"] = (
-            "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"
-        )
-        os.environ["GOOGLE_API_KEY"] = "AIzaSyD99DoMh5lAxLWLyQwQ-Moq8kl2EAfKx6o"
+        os.environ["LANGCHAIN_API_KEY"] = "your api key here"
+        os.environ["GOOGLE_API_KEY"] = "your api key here"
 
         self.project_id = project_id
         self.region = region
